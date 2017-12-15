@@ -1,4 +1,4 @@
-# X-WING-Anet-A8
+# X-WING Anet-A8
 Proyecto de mejora y documentación de una Anet A8 bautizada como X-WING
 
 En este repositorio se colgara todo lo necesario para su mantenimiento
