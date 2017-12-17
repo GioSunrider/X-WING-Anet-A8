@@ -7,4 +7,7 @@ ________________________________________________________________________________
 
 Power_Supply_Cover_with_Socket_Upgrade.stl -> Extension de la fuente de alimentacion.
 
-GlassBedPin-XL.stl -> Rueda ajuste de cristal de cama
+GlassBedPin-XL.stl -> Pieza de ajuste de cristal de cama caliente.
+GlassBedCorner-example-doNotUse-useCustomizer.stl -> Esquina de sujecion de cristal de cama caliente.
+GlassBedNut-v3.stl -> Rueda de ajuste de cristal de cama caliente,
+
