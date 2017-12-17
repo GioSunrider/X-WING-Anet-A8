@@ -6,3 +6,5 @@ ________________________________________________________________________________
  el posible movimiento de la barra roscada.
 
 Power_Supply_Cover_with_Socket_Upgrade.stl -> Extension de la fuente de alimentacion.
+
+GlassBedPin-XL.stl -> Rueda ajuste de cristal de cama
