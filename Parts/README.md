@@ -11,12 +11,20 @@ GlassBedPin-XL.stl -> Pieza de ajuste de cristal de cama caliente.
 
 GlassBedCorner-example-doNotUse-useCustomizer.stl -> Esquina de sujecion de cristal de cama caliente.
 
-GlassBedNut-v3.stl -> Rueda de ajuste de cristal de cama caliente,
+GlassBedNut-v3.stl -> Rueda de ajuste de cristal de cama caliente.
 
-Anet_A8_Top_Right_Bracket_Leo.stl-> Sujecion trasera superior derecha
+Anet_A8_Top_Right_Bracket_Leo.stl-> Sujecion trasera superior derecha.
 
-Top_left2.stl-> Sujecion trasera superior izquierda
+Top_left2.stl-> Sujecion trasera superior izquierda.
 
-Refuerzo_en_T.stl-> Sujecion superior delantera
+Refuerzo_en_T.stl-> Sujecion superior delantera.
 
 y-z-axis-fixation_v2.STL-> Sujeccion de las barras M8 entre marco y base.
+
+FAN1.stl-> Estructura que soporta el ventilador de la placa base. Parte 1.
+
+FAN2.stl-> Estructura que soporta el ventilador de la placa base. Parte 2.
+
+FAN3.stl-> Estructura que soporta el ventilador de la placa base. Parte 3.
+
+90mm_PSU_Fan_Cover.stl -> Cubierta del ventilador de la placa base.
