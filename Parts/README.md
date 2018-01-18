@@ -28,3 +28,15 @@ FAN2.stl-> Estructura que soporta el ventilador de la placa base. Parte 2.
 FAN3.stl-> Estructura que soporta el ventilador de la placa base. Parte 3.
 
 90mm_PSU_Fan_Cover.stl -> Cubierta del ventilador de la placa base.
+
+Back_Plate.stl-> Soporte de la base en la parte trasera.
+
+Adjustment_Screw.stl-> Tornillo del Tensor del Eje Y.
+
+Back_Plate.stl-> Soporte del Tensor del Eje Y
+
+Frame_L_V2.stl-> Soporte del Tensor del Eje Y.
+
+Frame_R_V2.stl->Soporte del Tensor del Eje Y.
+
+X_Belt_GT2__Gates_v3.stl-> Sujeccion de correa del Eje X.
