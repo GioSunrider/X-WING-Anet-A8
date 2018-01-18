@@ -40,3 +40,5 @@ Frame_L_V2.stl-> Soporte del Tensor del Eje Y.
 Frame_R_V2.stl->Soporte del Tensor del Eje Y.
 
 X_Belt_GT2__Gates_v3.stl-> Sujeccion de correa del Eje X.
+
+SORTE_2_BOBINAS.stl-> Pieza inferior del soporte de las bobinas.
