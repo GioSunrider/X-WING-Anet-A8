@@ -7,3 +7,6 @@ ________________________________________________________________________________
 
 Carpeta Marlin-SkyNet3D-V2.4.5-X-WING -> Esta carpeta contiene el firmware
 que actualmente se encuentra en la placa que controla la impresora.
+
+Parts-> Carpeta que contiene las piezas que estan actualmente instaladas en la
+impresora.
