@@ -13,3 +13,10 @@ GlassBedCorner-example-doNotUse-useCustomizer.stl -> Esquina de sujecion de cris
 
 GlassBedNut-v3.stl -> Rueda de ajuste de cristal de cama caliente,
 
+Anet_A8_Top_Right_Bracket_Leo.stl-> Sujecion trasera superior derecha
+
+Top_left2.stl-> Sujecion trasera superior izquierda
+
+Refuerzo_en_T.stl-> Sujecion superior delantera
+
+y-z-axis-fixation_v2.STL-> Sujeccion de las barras M8 entre marco y base.
