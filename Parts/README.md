@@ -21,11 +21,9 @@ Refuerzo_en_T.stl-> Sujecion superior delantera.
 
 y-z-axis-fixation_v2.STL-> Sujeccion de las barras M8 entre marco y base.
 
-FAN1.stl-> Estructura que soporta el ventilador de la placa base. Parte 1.
+FAN2.stl-> Estructura que soporta el ventilador de la placa base, DOS VECES. Parte 1.
 
-FAN2.stl-> Estructura que soporta el ventilador de la placa base. Parte 2.
-
-FAN3.stl-> Estructura que soporta el ventilador de la placa base. Parte 3.
+FAN3.stl-> Estructura que soporta el ventilador de la placa base, DOS VECES. Parte 2.
 
 90mm_PSU_Fan_Cover.stl -> Cubierta del ventilador de la placa base.
 
