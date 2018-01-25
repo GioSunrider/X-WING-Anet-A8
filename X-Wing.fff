@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="X-Wing" version="2018-01-20 19:27:29" app="S3D-Software 4.0.0">
+<profile name="X-Wing" version="2018-01-25 23:28:29" app="S3D-Software 4.0.0">
   <baseProfile>ANET A8</baseProfile>
   <printMaterial></printMaterial>
   <printQuality></printQuality>
@@ -46,7 +46,7 @@
   <skirtExtruder>0</skirtExtruder>
   <skirtLayers>0</skirtLayers>
   <skirtOutlines>0</skirtOutlines>
-  <skirtOffset>4</skirtOffset>
+  <skirtOffset>6</skirtOffset>
   <usePrimePillar>0</usePrimePillar>
   <primePillarExtruder>999</primePillarExtruder>
   <primePillarWidth>12</primePillarWidth>
@@ -157,10 +157,10 @@
   <celebrationSong>Random Song</celebrationSong>
   <postProcessing>{REPLACE &quot;; layer&quot; &quot;M117 Capa&quot;}</postProcessing>
   <defaultSpeed>3600</defaultSpeed>
-  <outlineUnderspeed>0.2</outlineUnderspeed>
+  <outlineUnderspeed>0.3</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
-  <rapidXYspeed>3600</rapidXYspeed>
+  <rapidXYspeed>4200</rapidXYspeed>
   <rapidZspeed>600</rapidZspeed>
   <minBridgingArea>50</minBridgingArea>
   <bridgingExtraInflation>0</bridgingExtraInflation>
@@ -170,7 +170,7 @@
   <fixedBridgingAngle>0</fixedBridgingAngle>
   <applyBridgingToPerimeters>0</applyBridgingToPerimeters>
   <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
-  <filamentPricesPerKg>46|46|46|46|46|46</filamentPricesPerKg>
+  <filamentPricesPerKg>20|46|46|46|46|46</filamentPricesPerKg>
   <filamentDensities>1.25|1.25|1.25|1.25|1.25|1.25</filamentDensities>
   <useMinPrintHeight>0</useMinPrintHeight>
   <minPrintHeight>0</minPrintHeight>
