@@ -10,3 +10,5 @@ que actualmente se encuentra en la placa que controla la impresora.
 
 Parts-> Carpeta que contiene las piezas que estan actualmente instaladas en la
 impresora.
+
+X-Wing.fff-> Perfil de impresion en Simplify3D.
