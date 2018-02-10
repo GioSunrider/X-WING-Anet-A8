@@ -44,3 +44,5 @@ SORTE_2_BOBINAS.stl-> Pieza inferior del soporte de las bobinas.
 x-belt_tensioner.stl-> Tensor de la correa del eje X.
 
 x-belt_tensioner_bolt.stl-> Tornillo del Tensor del Eje X.
+
+CilindroBobina.stl-> Cilindro para colocar en el circulo interno de la bobina.
