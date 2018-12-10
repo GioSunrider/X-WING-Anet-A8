@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="X-Wing" version="2018-09-22 14:34:56" app="S3D-Software 4.0.0">
+<profile name="X-Wing PLA Smatfil" version="2018-09-22 18:08:20" app="S3D-Software 4.0.0">
   <baseProfile>ANET A8</baseProfile>
   <printMaterial></printMaterial>
   <printQuality></printQuality>
@@ -13,11 +13,11 @@
     <useRetract>1</useRetract>
     <retractionDistance>2</retractionDistance>
     <extraRestartDistance>-0.1</extraRestartDistance>
-    <retractionZLift>0</retractionZLift>
-    <retractionSpeed>4200</retractionSpeed>
+    <retractionZLift>0.2</retractionZLift>
+    <retractionSpeed>2100</retractionSpeed>
     <useCoasting>0</useCoasting>
     <coastingDistance>0.2</coastingDistance>
-    <useWipe>0</useWipe>
+    <useWipe>1</useWipe>
     <wipeDistance>5</wipeDistance>
   </extruder>
   <primaryExtruder>0</primaryExtruder>
@@ -92,7 +92,7 @@
     <relayBetweenLayers>0</relayBetweenLayers>
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="205"/>
+    <setpoint layer="1" temperature="220"/>
   </temperatureController>
   <temperatureController name="Cama Caliente">
     <temperatureNumber>0</temperatureNumber>
