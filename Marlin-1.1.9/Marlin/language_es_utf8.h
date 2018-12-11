@@ -62,7 +62,7 @@
 #define MSG_PREHEAT_1_END                   MSG_PREHEAT_1 _UxGT(" End")
 #define MSG_PREHEAT_1_BEDONLY               MSG_PREHEAT_1 _UxGT(" Cama")
 #define MSG_PREHEAT_1_SETTINGS              MSG_PREHEAT_1 _UxGT(" Config")
-#define MSG_PREHEAT_2                       _UxGT("Precalentar ABS")
+#define MSG_PREHEAT_2                       _UxGT("Precalentar PETG")
 #define MSG_PREHEAT_2_N                     MSG_PREHEAT_2 _UxGT(" ")
 #define MSG_PREHEAT_2_ALL                   MSG_PREHEAT_2 _UxGT(" Todo")
 #define MSG_PREHEAT_2_END                   MSG_PREHEAT_2 _UxGT(" End")
