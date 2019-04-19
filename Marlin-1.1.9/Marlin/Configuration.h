@@ -128,7 +128,7 @@
 
 // Optional custom name for your RepStrap or other custom machine
 // Displayed in the LCD "Ready" message
-#define CUSTOM_MACHINE_NAME "X-WING " //GS
+#define CUSTOM_MACHINE_NAME "X-Wing " //GS
 
 // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
 // You can use an online service to generate a random UUID. (eg http://www.uuidgenerator.net/version4)
@@ -607,14 +607,14 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 100 } //GS
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 300 } //GS
 
 /**
  * Default Max Feed Rate (mm/s)
  * Override with M203
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 400, 400, 8, 50 } //GS
+#define DEFAULT_MAX_FEEDRATE          { 400, 400, 8, 150 } //GS
 
 /**
  * Default Max Acceleration (change/s) change = mm/s
@@ -647,7 +647,7 @@
 #define DEFAULT_XJERK                 10.0 //GS
 #define DEFAULT_YJERK                 10.0 //GS
 #define DEFAULT_ZJERK                  0.3  //GS
-#define DEFAULT_EJERK                  5.0  //GS
+#define DEFAULT_EJERK                 15.0  //GS
 
 /**
  * S-Curve Acceleration
@@ -657,7 +657,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-//#define S_CURVE_ACCELERATION
+#define S_CURVE_ACCELERATION
 
 //===========================================================================
 //============================= Z Probe Options =============================
@@ -775,9 +775,9 @@
  *      O-- FRONT --+
  *    (0,0)
  */
-#define X_PROBE_OFFSET_FROM_EXTRUDER 0   // X offset: -left  +right  [of the nozzle]
-#define Y_PROBE_OFFSET_FROM_EXTRUDER 0   // Y offset: -front +behind [the nozzle]
-#define Z_PROBE_OFFSET_FROM_EXTRUDER 0   // Z offset: -below +above  [the nozzle]
+#define X_PROBE_OFFSET_FROM_EXTRUDER -25 //GS  // X offset: -left  +right  [of the nozzle]
+#define Y_PROBE_OFFSET_FROM_EXTRUDER 5   //GS  // Y offset: -front +behind [the nozzle]
+#define Z_PROBE_OFFSET_FROM_EXTRUDER 0   //GS  // Z offset: -below +above  [the nozzle]
 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 10
@@ -882,12 +882,12 @@
 #define Y_BED_SIZE 220  //GS
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS -33
-#define Y_MIN_POS -10
-#define Z_MIN_POS 0
-#define X_MAX_POS X_BED_SIZE  //GS
-#define Y_MAX_POS Y_BED_SIZE  //GS
-#define Z_MAX_POS 225         //GS
+#define X_MIN_POS -13   //GS
+#define Y_MIN_POS -13   //GS
+#define Z_MIN_POS 0     //GS
+#define X_MAX_POS 250   //GS
+#define Y_MAX_POS 250   //GS
+#define Z_MAX_POS 235   //GS
 
 /**
  * Software Endstops
@@ -1023,10 +1023,10 @@
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 
   // Set the boundaries for probing (where the probe can reach).
-  //#define LEFT_PROBE_BED_POSITION MIN_PROBE_EDGE
-  //#define RIGHT_PROBE_BED_POSITION (X_BED_SIZE - MIN_PROBE_EDGE)
-  //#define FRONT_PROBE_BED_POSITION MIN_PROBE_EDGE
-  //#define BACK_PROBE_BED_POSITION (Y_BED_SIZE - MIN_PROBE_EDGE)
+  #define LEFT_PROBE_BED_POSITION 27
+  #define RIGHT_PROBE_BED_POSITION 205
+  #define FRONT_PROBE_BED_POSITION 200
+  #define BACK_PROBE_BED_POSITION 20
 
   // Probe along the Y axis, advancing X after each column
   //#define PROBE_Y_FIRST
@@ -1258,9 +1258,17 @@
 #define PREHEAT_1_TEMP_BED     55 //GS
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
-#define PREHEAT_2_TEMP_HOTEND 250 //GS
+#define PREHEAT_2_TEMP_HOTEND 240 //GS
 #define PREHEAT_2_TEMP_BED     90 //GS
 #define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
+
+#define PREHEAT_3_TEMP_HOTEND 210 //GS
+#define PREHEAT_3_TEMP_BED     40 //GS
+#define PREHEAT_3_FAN_SPEED     0 // Value from 0 to 255
+
+#define PREHEAT_4_TEMP_HOTEND 230 //GS
+#define PREHEAT_4_TEMP_BED    100 //GS
+#define PREHEAT_4_FAN_SPEED     0 // Value from 0 to 255
 
 /**
  * Nozzle Park
